@@ -1,0 +1,216 @@
+/* IDs */
+#blub {
+  font-size: 20px;
+  font-family: 'Quicksand-medium', sans-serif;
+  padding-right: 21%
+}
+
+#features {
+  color: #8B73FF;
+  margin: 100px auto;
+  padding: 7% 10%;
+}
+
+#cta {
+  /* color:;#8B73FF; */
+  padding: 10%;
+}
+
+#footer {
+  padding: 7% 10%;
+}
+
+/* #press {
+  background-color: #E1A3FF;
+} */
+
+/* #pricing {
+  color: #000;
+  text-align: center;
+  padding: 100px;
+} */
+
+/* Classes */
+
+.navbar-brand {
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
+}
+
+.nav-link {
+  font-family: 'Quicksand-light', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+.navbar {
+  padding: 0 0 3rem;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.n {
+  padding: 3% 15%;
+}
+
+.deal {
+  padding: 1.5rem 1%;
+  text-align: left;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.shoes {
+  margin-left: 15%;
+  padding: .5rem;
+  width: 80%
+}
+
+.fa-5x:hover {
+  color: #78D9FF
+}
+
+.what {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #000;
+}
+
+.things {
+  padding: 20px;
+}
+
+.gray {
+  color: #8f8f8f;
+}
+
+.carousel-item {
+  padding: 15% 10%;
+}
+
+/* .pricing-column {
+  padding: 3% 2%;
+} */
+
+.form-check {
+  margin-left: 38%;
+  text-align: left;
+}
+
+.subscribe {
+  margin-bottom: 4rem;
+  font-weight: 500;
+  color:#8B73FF;
+}
+
+.footer-icons {
+  margin: auto 5px;
+}
+
+.credits {
+  font-size: 3.5rem;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+
+.copyright {
+  margin: 0;
+  padding: 5% 10% 1%;
+  line-height: 1rem;
+}
+
+.brand-copyright {
+  font-size: 12px;
+}
+
+/* Attributes */
+
+body {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Quicksand-bold', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* ul {
+  text-align: left;
+} */
+
+/* Sections */
+
+.colored-section {
+  background-color: #E1A3FF;
+}
+
+.white-section {
+  background-color: #FFF;
+  color: #000;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 990px) {
+  .shoes {
+    text-align: left;
+    padding-right: 20%;
+  }
+
+  .form-check {
+    margin-left: 30%;
+  }
+
+  .credits {
+    line-height: 4rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 628px) {
+  .credits {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+}
+
+@media (max-width: 510px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .btn {
+    width: 140px;
+    height: 42px;
+    font-size: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+.form-check {
+  margin-left: 1%
+}
+}
